@@ -12,7 +12,7 @@ doUniqueCJ(dt, cols)
 \item{cols}{character vector that denotes names of relevant columns}
 }
 \description{
-This function makes use of \code{\link{CJ}} function of the data.table package to perform a
+This function makes use of \code{\link[data.table]{CJ}} function of the data.table package to perform a
 cross join. The function makes sure that the combinations are unique and removes NAs before
 joining. doUniqueCJ is rather not used as a standalone function but inside \code{\link{computeShares}}.
 }
