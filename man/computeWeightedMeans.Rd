@@ -102,4 +102,3 @@ plot(ts3, main = attributes(ts3)$ts_key)
 \author{
 Matthias Bannert, Gabriel Bucur
 }
-

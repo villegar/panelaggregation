@@ -4,8 +4,15 @@
 \alias{extractTimeSeries}
 \title{Extract a Time Series from a Data.table}
 \usage{
-extractTimeSeries(data_table, time_column, group_list, freq, item, variable,
-  prefix = "CH.KOF.IND")
+extractTimeSeries(
+  data_table,
+  time_column,
+  group_list,
+  freq,
+  item,
+  variable,
+  prefix = "CH.KOF.IND"
+)
 }
 \arguments{
 \item{data_table}{a data.table}
@@ -30,4 +37,3 @@ This function extracts time series from data.table columns and returns object of
 \author{
 Matthias Bannert, Gabriel Bucur
 }
-

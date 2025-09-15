@@ -4,8 +4,10 @@
 \alias{computeBalance}
 \title{Compute Balances from a Item Shares}
 \usage{
-computeBalance(data_table, multipliers = list(item_pos = 1, item_eq = 0,
-  item_neg = -1))
+computeBalance(
+  data_table,
+  multipliers = list(item_pos = 1, item_eq = 0, item_neg = -1)
+)
 }
 \arguments{
 \item{data_table}{a data.table in wide format containing item}
@@ -19,4 +21,3 @@ stored in a wide format data.table.
 \author{
 Matthias Bannert, Gabriel Bucu
 }
-

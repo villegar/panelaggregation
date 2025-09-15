@@ -3,7 +3,9 @@
 \name{btsdemo}
 \alias{btsdemo}
 \title{Randomly Generated Panel Dataset}
-\format{A data frame with 27000 rows and 13 variables}
+\format{
+A data frame with 27000 rows and 13 variables
+}
 \source{
 Randomly generated in R using the sample generator from https://github.com/mbannert/gateveys/blob/master/R/gateveys.R
 }
@@ -19,18 +21,17 @@ its distribution is somewhat (!) reasonable with respect to the distribution of 
   \item uid unique company identifier
   \item year numeric year column
   \item weight quantitative weight
-  \item question\_1
-  \item question\_2
-  \item question\_3
-  \item question\_4
-  \item question\_5
-  \item group group to mimmick different sectors / branches of trade
+  \item question\eqn{_1}
+  \item question\eqn{_2}
+  \item question\eqn{_3}
+  \item question\eqn{_4}
+  \item question\eqn{_5}
+  \item group to mimmick different sectors / branches of trade
   \item altGroup another alternative grouping columns
   \item sClass a column denoting discrete size classes small (S), medium (M) and large (L)
-  \item date\_qtrly quarterly dates stored in a single column. 
+  \item date\eqn{_\text{qtrly}} quarterly dates stored in a single column. 
 }
 }
 \author{
 Matthias Bannert
 }
-

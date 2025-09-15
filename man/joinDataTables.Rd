@@ -25,4 +25,3 @@ In the latter case, the sequence of the names is crucial. Make sure that the key
 \author{
 Matthias Bannert, Gabriel Bucur
 }
-

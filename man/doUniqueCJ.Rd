@@ -19,4 +19,3 @@ joining. doUniqueCJ is rather not used as a standalone function but inside \code
 \author{
 Matthias Bannert, Gabriel Bucur
 }
-
